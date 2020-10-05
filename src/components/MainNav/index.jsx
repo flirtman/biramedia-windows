@@ -19,7 +19,7 @@ const MainNav = () => {
     return (
         <Container className="nav-container">
             <Navbar expand="lg" bg="dark" variant="light">
-                <Navbar.Brand href="/">
+                <Navbar.Brand href={`${process.env.PUBLIC_URL}/`}>
                     <img src={Logo} alt={'Company Name'} className={'logo-top'}/>
                     <p>{configs.companyName}</p>
                 </Navbar.Brand>
