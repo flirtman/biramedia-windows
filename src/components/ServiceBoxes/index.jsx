@@ -19,7 +19,7 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><HomeOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>Lighting Services</h2>
+                    <h2>Service 1</h2>
                     <p>We illuminate your house & property professionally.</p>
                     <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/lighting-services`}>Read More</a></div>
                 </div>
@@ -30,7 +30,7 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><BusinessOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>New Installations</h2>
+                    <h2>WService 2</h2>
                     <p>We deliver our services for both residential and commercial.</p>
                     <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/new-installation`}>Read More</a></div>
                 </div>
@@ -41,7 +41,7 @@ const ServiceBoxes = () => {
                 </div>
                 <div className="box-icon"><BuildOutlinedIcon/></div>
                 <div className="box-content">
-                    <h2>Electrical Inspections</h2>
+                    <h2>Service 3</h2>
                     <p>We cover range of electrical inspections with full diligence.</p>
                     <div className="box-btn"><a href={`${process.env.PUBLIC_URL}/service/electrical-inspections`}>Read More</a></div>
                 </div>
