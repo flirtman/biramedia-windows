@@ -10,18 +10,16 @@ const AboutUsSection = () => {
             <Container>
                 <Row>
                     <Col xs={12} sm={12} md={6}>
-                        <h3>Our Comprehensive Range of Electrical Services in <span>{configs.greatCity}</span></h3>
+                        <h3>Our Comprehensive Range of Windows Services in <span>{configs.greatCity}</span></h3>
                         <p>
-                            {configs.companyName} strives to ensure the highest level of service as well as integrity. Reach out to {configs.greatCity} electrical
-                            experts to know more about our electrical needs. We ensure that every service contract or call
-                            is always carried out by abiding to the Ontario Electrical Safety Code.
+                            {configs.companyName} strives to ensure the highest level of service as well as integrity. Reach out to {configs.companyName} {configs.greatCity} windows
+                            experts to know more about our windows installation and repair services. We ensure that every service contract or call
+                            is always carried out by abiding to the {configs.greatCity} safety.
                         </p>
                         <ul>
-                            <li>Residential electrical services</li>
-                            <li>Commercial electrical services</li>
+                            <li>Residential windows services</li>
+                            <li>Commercial windows services</li>
                             <li>New installation</li>
-                            <li>Generator services</li>
-                            <li>Lighting services</li>
                         </ul>
                     </Col>
                     <Col xs={12} sm={12} md={6}>
